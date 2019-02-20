@@ -11,7 +11,7 @@ export default class App extends Component {
 
   state = {
     showRandomPlanet: true,
-    selectedPerson: null
+    selectedPerson: 5
   };
 
   toggleRandomPlanet = () => {
@@ -38,7 +38,7 @@ export default class App extends Component {
       <div className="stardb-app">
         <Header />
         { planet }
-        
+
         <button
           className="toggle-planet btn btn-warning btn-lg"
           onClick={this.toggleRandomPlanet}>

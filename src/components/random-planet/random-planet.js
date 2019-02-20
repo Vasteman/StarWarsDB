@@ -37,7 +37,7 @@ export default class RandomPlanet extends Component {
   };
 
   updatePlanet = () => {
-    const id = Math.floor(Math.random()*25) + 2;
+    const id = Math.floor(Math.random()*17) + 2;
     this.swapiService
       .getPlanet(id)
       .then(this.onPlanetLoaded)
@@ -93,3 +93,6 @@ const PlanetView = ({ planet }) => {
     </React.Fragment>
   );
 };
+
+
+
