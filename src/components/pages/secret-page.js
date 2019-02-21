@@ -6,7 +6,7 @@ const SecretPage = ({ isLoggedIn }) => {
   if (isLoggedIn) {
     return (
       <div className="jumbotron text-center">
-        <h3>This page is full of secrets!!!</h3>
+        <h3>Vader is Luke's father!</h3>
       </div>
     );
   }
